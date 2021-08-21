@@ -30,7 +30,7 @@ module.exports = {
         .addField("***BOT BY:***",`
         >>> <@746275512145674351> \`RByxle#9999\`
         `)
-            .setFooter(`To see command descriptions and inforamtion, type: ${config.prefix}help [CMD NAME]`, client.user.displayAvatarURL())
+            .setFooter(`To see command descriptions and inforamtion, type: ${config.PREFIX}help [CMD NAME]`, client.user.displayAvatarURL())
             const commands = (category) => { //finding all commands and listing them into a string with filter and map
                 return client.commands.filter(cmd => cmd.category === category)
                         .map(cmd => `\`${cmd.name}\``).join(", ")
