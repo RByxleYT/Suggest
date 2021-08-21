@@ -1,0 +1,20 @@
+{
+  "name": "suggestion-bot-databases-main",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "enmap": "^5.8.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none:)"
+  },
+  "author": "RByxle#9999",
+  "license": "ISC"
+}
