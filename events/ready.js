@@ -8,7 +8,7 @@ module.exports = client => {
     var i = 0;
     setInterval(() => {
         i+=1;
-        if(i === 1) client.user.setActivity(`${config.prefix}help`, { type: "PLAYING" });
+        if(i === 1) client.user.setActivity(`${config.PREFIX}help`, { type: "PLAYING" });
         if(i === 2) client.user.setActivity(`Suggestions`, { type: "PLAYING" });
         if(i > 3) { i = 0; client.user.setActivity(`${client.guilds.cache.reduce((c, g) => c + g.memberCount, 0)} Users`, { type: "PLAYING" });}
        
