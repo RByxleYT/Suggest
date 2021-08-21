@@ -1,20 +1,23 @@
 {
-  "name": "suggestion-bot-databases-main",
-  "version": "1.0.0",
-  "description": "test",
+  "name": "Submitter",
+  "version": "2.4.1",
+  "description": "Submitter made by RByxle#9999",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "enmap": "^5.8.7",
-    "ascii-table": "^0.0.9"
+    "@discordjs/opus": "^0.3.3",
+    "@ksoft/api": "^3.1.9",
+    "ascii-table": "^0.0.9",
+    "canvas": "^2.6.1",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.5.1",
+    "enmap": "^5.8.4",
+    "got": "^11.8.1",
+    "officegen": "^0.6.4"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "none:)"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "RByxle#9999",
   "license": "ISC"
